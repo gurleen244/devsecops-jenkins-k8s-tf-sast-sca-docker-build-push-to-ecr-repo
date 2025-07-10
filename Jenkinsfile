@@ -4,7 +4,6 @@ pipeline {
         maven 'Maven_3_5_2'
     }
     environment {
-        AWS_REGION = 'us-east-1'
         IMAGE_NAME = 'for_our_project'
         ECR_REPO = '982081064548.dkr.ecr.us-west-2.amazonaws.com/for_our_project'
 	AWS_REGION = 'us-west-2'
